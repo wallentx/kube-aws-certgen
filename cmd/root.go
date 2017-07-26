@@ -7,7 +7,7 @@ import (
 var (
     RootCmd = &cobra.Command{
         Use:   "kube-aws-certgen",
-        Short: "Tool for creating private TLS assets for kube-aws production clusuter",
+        Short: "Tool for creating private TLS assets for kube-aws production cluster",
         Long:  ``,
     }
 
